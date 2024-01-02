@@ -3,12 +3,11 @@
 1. Open up a terminal (i.e., Windows Command Prompt) and navigate to the directory "Flask App".
 
 2. Check to make sure you have Python and pip installed. Check if Python is installed by typing `python --version`. If Python is not installed, it can be downloaded for Windows through the following link [Python Downloads](https://www.python.org/downloads/windows/). Click on either "Download Windows installer (32-bit)" or "Download Windows installer (64-bit)" depending on your system. Once Python is downloaded, check in your terminal whether pip was installed as well by typing `pip -V`. If pip is not installed, run the command:
-   ```bash
-   curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py.
+   
+`curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
 
-Then type this command python get-pip.py to install pip:
-   ```bash
-   python get-pip.py
+Then type this command to install pip:
+`python get-pip.py`
 
 
 3. Next the jupyter package will need to be installed with `pip install jupyter`. Then type the command `python -m notebook` which 
